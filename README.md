@@ -1,2 +1,4 @@
 # Embedded_Junior_design
 C code for programming microcontroller board for junior design
+The purpose of this project was to design, construct, and test a power inverter, for use with solar (PV) panel. The inverter was to accept a 25-50V direct current (DC) input from a solar (PV) panel, and produce a 0-40V, 60Hz sine wave output. The design was required to have sin wave pulse width modulation (SPWM) from a microcontroller, and was to supply voltage and current information back to the controller for maximum power point tracking. The output was also required to have less than 5% total harmonic distortion (THD). 
+The microcontroller used to help control the pcb board was the tms320f28335 32 bit microcontroller from Texas Instruments. The design of the program allowed for signals to come in from the mosfets and perform pulse width modulation with a varying duty cycle to output a sine wave on an oscilloscope.
